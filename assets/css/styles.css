@@ -197,6 +197,7 @@ body.dark-theme{
 
 .title__underline{
   transition: .3s;
+  color: var(--first-color);
 }
 .title__underline:hover{
   text-decoration: underline;
@@ -615,18 +616,19 @@ body.dark-theme{
 }
 
 .blog__data{
-  padding: 0 1rem 1rem 1rem;
-  width: 200px;
+  padding: 1rem 2rem 2rem 2rem;
+  
 }
 
 .blog__title{
   font-size: var(--h3-font-size);
   font-weight: var(--font-bold);
   margin-bottom: var(--mb-1);
+  margin-top: var(--mb-0-75);
 }
-.blog__subtitle{
+/* .blog__subtitle{
   font-size: var(--h3-font-size);
-}
+} */
 
 .blog__link{
   padding-left: 1rem;
@@ -641,19 +643,25 @@ body.dark-theme{
 
 .blog__line{
   content: '';
-  top: -1rem;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 93%;
-  height: 1px;
-  background-color: var(--first-color);
+  margin-top: .4rem;
+  width: 100%;
+  height: 3px;
+  background-color: var(--button-color);
+  transition: .3s;
 }
 
-.blog__author{
-  padding-left: 1rem;
-  margin-top: var(--mb-1);
-  margin-bottom: var(--mb-1);
+.button__blog{
+  background-color: none;
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  
+}
+
+.blog__card:hover .blog__line{
+  background-color: var(--first-color);
+  width: 50%;
 }
 
 /*=============== TESTIMONIAL ===============*/
