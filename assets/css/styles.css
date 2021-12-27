@@ -626,9 +626,6 @@ body.dark-theme{
   margin-bottom: var(--mb-1);
   margin-top: var(--mb-0-75);
 }
-/* .blog__subtitle{
-  font-size: var(--h3-font-size);
-} */
 
 .blog__link{
   padding-left: 1rem;
