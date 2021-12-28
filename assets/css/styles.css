@@ -661,6 +661,75 @@ body.dark-theme{
   width: 50%;
 }
 
+/*=============== BLOG DETAIL ===============*/
+.blog__details{
+  row-gap: 2.5rem;
+}
+
+.blog__details__data{
+  background-color: var(--container-color);
+}
+
+.blog__details__images{
+  height: 270px;
+  width: 100%;
+  margin-bottom: var(--mb-1);
+}
+
+.blog__details__title{
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.blog__details__writer ul li{
+  display: inline-block;
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1-5);
+  position: relative;
+  margin-right: var(--mb-1);
+}
+.blog__details__writer a{
+  color:var(--text-color-light);
+}
+
+.blog__details__writer ul li::after {
+  position: absolute;
+  content: "|";
+  right: -12px;
+}
+
+.blog__details__writer ul li:last-child {
+	margin-right: 0;
+}
+
+.blog__details__writer ul li:last-child:after {
+	display: none;
+}
+
+.blog__details__content{
+  position: relative;
+}
+
+.blog__details__text{
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-2);
+}
+
+.blog__details__btns{
+  position: relative;
+  display: inline-block;
+}
+
+.blog__details__btns__item{
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.blog__details__btns__img{
+  height: 70px;
+}
+
 /*=============== TESTIMONIAL ===============*/
 .testimonial__container{
   row-gap: 4rem;
