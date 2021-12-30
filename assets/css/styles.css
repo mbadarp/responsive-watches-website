@@ -723,11 +723,24 @@ body.dark-theme{
 
 .blog__details__btns__item{
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+  background-color: var(--container-color);
+  padding: .5rem;
+  font-size: var(--normal-font-size);
+  border: 20px;
+}
+
+.blog__details__btns__item a{
+  color: var(--text-color);
+}
+
+.blog__details__btns__data--next {
   
 }
 
 .blog__details__btns__img{
   height: 70px;
+  
 }
 
 /*=============== TESTIMONIAL ===============*/
