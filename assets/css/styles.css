@@ -719,6 +719,7 @@ body.dark-theme{
 .blog__details__btns{
   position: relative;
   display: inline-block;
+  justify-content: space-between;
 }
 
 .blog__details__btns__item{
@@ -727,20 +728,29 @@ body.dark-theme{
   background-color: var(--container-color);
   padding: .5rem;
   font-size: var(--normal-font-size);
-  border: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.blog__details__btns__item img{
+  margin-right: none;
+  margin-left: 1rem;
 }
 
 .blog__details__btns__item a{
   color: var(--text-color);
 }
 
-.blog__details__btns__data--next {
+.blog__details__btns__data {
   
+}
+
+.blog__details__btns__data--next {
+  text-align: end;
 }
 
 .blog__details__btns__img{
   height: 70px;
-  
+  margin-right: 0;
 }
 
 /*=============== TESTIMONIAL ===============*/
