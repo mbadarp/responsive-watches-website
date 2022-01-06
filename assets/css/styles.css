@@ -1205,6 +1205,11 @@ body.dark-theme{
     gap: 1.5rem;
   }
 
+  .products__container{
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+  }
+
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
   }
